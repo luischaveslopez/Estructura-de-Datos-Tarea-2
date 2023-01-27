@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class LuisChaves_Tarea2 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
         Cliente cliente = new Cliente();
         Meses meses = new Meses();
 
@@ -23,10 +22,10 @@ public class LuisChaves_Tarea2 {
 
                 switch (opcion) {
                     case 1:
-                        //cliente.cliente(nombre, apellido, opcion, direccion, correo);
+                        cliente.cliente();
                         break;
                     case 2:
-
+                        //meses.mostrarMeses();
                         break;
                     case 3:
                         System.out.println("Salir");
