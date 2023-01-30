@@ -25,7 +25,7 @@ public class LuisChaves_Tarea2 {
                         cliente.cliente();
                         break;
                     case 2:
-                        //meses.mostrarMeses();
+                        meses.mostrarMeses();
                         break;
                     case 3:
                         System.out.println("Salir");
